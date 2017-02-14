@@ -31,36 +31,36 @@ function createTemplate(data){
   var content= data.content;
   
 var htmlTemplate= `
-<html>
-    <head>
-        <title>
-            ${title}
-        </title>
-        <meta name="viewport" content="width=decice-width, initial-scale=1" />
-        <link href="/ui/style.css" rel="stylesheet" />
-     </head>
-    <body>
-        <div class="container">
-            <div>
-                <a href="/">home </a>
+        <html>
+            <head>
+                <title>
+                    ${title}
+                </title>
+                <meta name="viewport" content="width=decice-width, initial-scale=1" />
+                <link href="/ui/style.css" rel="stylesheet" />
+             </head>
+            <body>
+                <div class="container">
+                    <div>
+                        <a href="/">home </a>
+                         </div>
+                         <hr/>
+                    <div>
+                        
+                      <h3>
+                        ${heading}
+                     </h3> 
+                     </div>
+                     <div>
+                        ${date}
+                         
+                     </div>
+                     
+                     ${content}
                  </div>
-                 <hr/>
-            <div>
-                
-              <h3>
-                ${heading}
-             </h3> 
-             </div>
-             <div>
-                ${date}
-                 
-             </div>
-             
-             ${content}
-         </div>
-     </body>    
-</html>
-`;
+             </body>    
+        </html>
+        `;
 return htmlTemplate;
 }
 
@@ -69,7 +69,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one',function (req,res) {
-    res.send(craeteTemplate(articleOne));
+    res.send(createTemplate(articleOne));
 });
 
 app.get('/article-two',function (req,res) {
