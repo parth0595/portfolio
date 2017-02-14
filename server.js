@@ -16,8 +16,7 @@ var articles = {
                  </p> `
         
 } ,
-
-articleTwo : {
+    articleTwo : {
         title:'ARTICLE TWO | PARTH GUPTA',
         heading:'ARTICLE TWO',
         date:'FEB 14, 2107',
@@ -26,8 +25,7 @@ articleTwo : {
              THIS IS MY ARTICLE TWO.
          </p>
              `} ,
-             
-articleThree : { 
+    articleThree : { 
         title:'ARTICLE THREE | PARTH GUPTA',
         heading:'ARTICLE THREE',
         date:'FEB 14, 2107',
