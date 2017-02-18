@@ -8,8 +8,8 @@ function move(){
     marginLeft= marginLeft + 10;
    image.style.marginLeft= marginLeft + 'px';
    if(marginLeft==300)
-   { marginLeft=marginLeft -10;
-       image.style.marginLeft= 'px' - marginLeft;
+   { marginLeft=0;
+       
     }
     }
 image.onclick = function() {
