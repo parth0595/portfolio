@@ -4,12 +4,15 @@ alert('hi, i love you.');
  // move the image
 var image=document.getElementById('madi');
 var marginLeft = 0;
+var marginRight =0
 function move(){
-     marginLeft= marginLeft + 10;
-    image.style.marginLeft= marginLeft + 'px';
-    if(marginLeft>200){
-        marginLeft=marginLeft -10;
-        image.style.marginLeft= marginLeft - 'px';
+    if(marginRight>500)
+     {marginLeft= marginLeft + 10;
+    image.style.marginLeft= marginLeft + 'px';}
+    
+    if(marginLeft>50){
+        marginLeft=marginLeft + 10;
+        image.style.marginRight= marginRight + 'px';
     }
 }
 image.onclick = function() {
