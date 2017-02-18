@@ -7,7 +7,7 @@ var marginLeft = 0;
 function move(){
     marginLeft= marginLeft + 10;
    image.style.marginLeft= marginLeft + 'px';
-   if(marginLeft==300)
+   if(marginLeft==600)
    { marginLeft=0;
        
     }
