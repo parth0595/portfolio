@@ -5,9 +5,9 @@ alert('hi, i love you.');
 var image=document.getElementById('madi');
 var marginLeft = 1;
 function move(){
-    if(marginLeft > 0)
-     {marginLeft= marginLeft + 10;
-    image.style.marginLeft= marginLeft + 'px';}
+    
+     marginLeft= marginLeft + 10;
+    image.style.marginLeft= marginLeft + 'px';
     
     if(marginLeft== 500){
         
