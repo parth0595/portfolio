@@ -3,10 +3,10 @@ alert('hi, i love you.');
 
  // move the image
 var image=document.getElementById('madi');
- var marginleft=0;
+ var marginLeft=0;
 function move(){
-    var marginleft= marginleft+10;
-    image.style.marginleft= marginleft + 'px';
+    var marginLeft= marginleft+10;
+    image.style.marginLeft= marginLeft + 'px';
 }
 image.onclick = function() {
 var inerval = setInterval(move , 100);
