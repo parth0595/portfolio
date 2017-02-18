@@ -10,8 +10,8 @@ function move(){
     image.style.marginLeft= marginLeft + 'px';
     
     if(marginLeft== 200){
-        
-        image.style.marginLeft= '20px';
+        marginLeft= marginLeft -10;
+        image.style.marginLeft= marginLeft + 'px';
     }
 }
 image.onclick = function() {
