@@ -13,5 +13,5 @@ function move(){
     }
     }
 image.onclick = function() {
-var inerval = setInterval(move , 100);
+var inerval = setInterval(move , 50);
 };
