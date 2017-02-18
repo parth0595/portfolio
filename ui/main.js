@@ -5,11 +5,11 @@ alert('hi, i love you.');
 var image=document.getElementById('madi');
 var marginLeft = 1;
 function move(){
-    
+    do{
      marginLeft= marginLeft + 10;
     image.style.marginLeft= marginLeft + 'px';
-    
-    if(marginLeft== 200){
+    }
+    while(marginLeft < 200){
         marginLeft= marginLeft -10;
         image.style.marginLeft= marginLeft + 'px';
     }
