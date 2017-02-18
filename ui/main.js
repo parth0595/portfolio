@@ -9,7 +9,7 @@ function move(){
    image.style.marginLeft= marginLeft + 'px';
    if(marginLeft==300){
        marginLeft=marginLeft -10;
-        image.style.marginLeft= '50px';
+        image.style.marginLeft= '10px';
    }
     }
 image.onclick = function() {
