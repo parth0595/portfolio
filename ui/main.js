@@ -11,7 +11,7 @@ function move(){
     
     if(marginLeft>500){
         marginLeft=marginLeft - 10;
-        image.style.marginLeft= marginLeft;
+        image.style.marginLeft= '20px';
     }
 }
 image.onclick = function() {
