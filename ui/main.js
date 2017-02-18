@@ -10,7 +10,7 @@ function move(){
      {marginLeft= marginLeft + 10;
     image.style.marginLeft= marginLeft + 'px';}
     
-    if(marginLeft>50){
+    if(marginLeft>500){
         marginLeft=marginLeft + 10;
         image.style.marginRight= marginRight + 'px';
     }
